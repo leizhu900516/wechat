@@ -8,10 +8,10 @@ import sys
 reload(sys)
 sys.setdefaultencoding("utf8")
 app = Flask(__name__)
-EncodingAESKey = "Sy2e3hrsWCDUyC7060DjJxl23DtCgMFoPiZh2gisl9P"
+EncodingAESKey = "test"
 token = 'chc900516'
-appid = 'wx8baff0833672c2a9'
-appsecret = '1620f6d708544eb2b8f9d78d30b3a129'
+appid = 'test'
+appsecret = 'test'
 
 @app.route('/wechat', methods=['GET', 'POST'])
 def hello_world():
